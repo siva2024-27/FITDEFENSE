@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Daily Routine</title>
+    <style>
+        body {
+            background-image: url("C:\Users\Nandana Rakesh\Downloads\59513_1-Daily_routines.jpg"); /* Change to relative path */
+            background-size: cover; /* Ensure background covers full screen */
+            background-position: center;
+            font-family: Arial, sans-serif;
+            background-color:  #FFF5E1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 500px;
+            z-index: 2; /* Ensure content appears above the background */
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .tips {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .tips ul {
+            padding-left: 20px;
+        }
+
+        .scheduler input, .scheduler button {
+            padding: 10px;
+            margin: 5px;
+            width: 100%;
+            font-size: 1em;
+        }
+
+        .scheduler button {
+            background-color: #4CAF50;
+            color: green;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .scheduler button:hover {
+            background-color: #45a049;
+        }
+
+        .schedule-list {
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .schedule-list div {
+            background: #e0f7e0;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        .link {
+            margin-top: 20px;
+        }
+
+        .link a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Healthy Daily Routine</h1>
+        
+        <div class="tips">
+            <h2>Tips for a Healthy Day</h2>
+            <ul>
+                <li>Wake up early and hydrate.</li>
+                <li>Exercise for at least 30 minutes.</li>
+                <li>Eat a balanced breakfast.</li>
+                <li>Stay positive and stress-free.</li>
+                <li>Take breaks and get enough sleep.</li>
+            </ul>
+        </div>
+
+        <div class="scheduler">
+            <h2>Daily Schedule</h2>
+            <input type="text" id="activity" placeholder="Enter activity">
+            <button onclick="addSchedule()">Add to Schedule</button>
+            <div class="schedule-list" id="scheduleList"></div>
+        </div>
+
+        <div class="link">
+            <a href="#">Learn more about healthy routines</a>
+        </div>
+    </div>
+
+    <script>
+        function addSchedule() {
+            var activity = document.getElementById("activity").value;
+            if (activity) {
+                var scheduleList = document.getElementById("scheduleList");
+                var div = document.createElement("div");
+                div.textContent = activity;
+                scheduleList.appendChild(div);
+                document.getElementById("activity").value = ''; // Clear input field
+            } else {
+                alert("Please enter an activity.");
+            }
+        }
+    </script>
+
+</body>
+</html>

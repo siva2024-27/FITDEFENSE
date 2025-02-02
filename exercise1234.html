@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Time Slots</title>
+    <style>
+        body {
+            background-image: url("C:/Users/Nandana Rakesh/Downloads/WhatsApp Image 2025-02-01 at 23.34.35.jpeg");
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000000;
+            padding: 20px;
+        }
+        .container {
+            background: grey;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        h2 {
+            color: #fff;
+        }
+        .slot {
+            background: rgba(61, 61, 61, 0.8);
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .slot:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .link {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img src="girlex.jpeg" alt="Exercise Image">
+    <div class="container">
+        <h2>Select Your Exercise Slot</h2>
+        <button class="slot" onclick="selectSlot()">6:00 AM - 7:00 AM</button>
+        <button class="slot" onclick="selectSlot()">7:00 AM - 8:00 AM</button>
+        <button class="slot" onclick="selectSlot()">8:00 AM - 9:00 AM</button>
+        <button class="slot" onclick="selectSlot()">5:00 PM - 6:00 PM</button>
+        <button class="slot" onclick="selectSlot()">6:00 PM - 7:00 PM</button>
+        <div class="link">
+            <a href="https://www.healthline.com/health/fitness-exercise/10-best-exercises-everyday#start-here" target="_blank">Learn More About Exercises</a>
+        </div>
+    </div>
+    
+    <script>
+        function selectSlot() {
+            alert("You have selected this slot. Reminder has been set.");
+        }
+    </script>
+</body>
+</html>

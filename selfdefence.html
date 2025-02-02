@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Self Defence Classes</title>
+    <style>
+        body {
+            background-image: url("C:/Users/Nandana Rakesh/Downloads/WhatsApp Image 2025-02-02 at 04.44.53.jpeg");
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: skyblue;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .time-slots button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .time-slots button:hover {
+            background-color: #45a049;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .link {
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        .link a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Join Self Defence Classes</h1>
+        <p>Select a time slot for your class:</p>
+        
+        <div class="time-slots">
+            <button onclick="selectSlot('9:00 AM')">9:00 AM</button>
+            <button onclick="selectSlot('12:00 PM')">12:00 PM</button>
+            <button onclick="selectSlot('3:00 PM')">3:00 PM</button>
+        </div>
+        
+        <div id="message" class="message"></div>
+
+        <div class="link">
+            <p>For more information on self-defense courses, check out 
+                <a href="https://www.classcentral.com/subject/self-defense" target="_blank">Self-Defense Courses</a>.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function selectSlot(time) {
+            const message = document.getElementById('message');
+            message.textContent = `You have selected the ${time} time slot.`;
+        }
+    </script>
+</body>
+</html>
