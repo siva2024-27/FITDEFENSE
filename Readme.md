@@ -11,8 +11,7 @@
 - Member 3: [Nandana Rakesh] - [Amal jyothi college of engineering]
 
 ### Hosted Project Link
-[C:\Users\Nandana Rakesh\Desktop\hackthon]
-
+(https://siva2024-27.github.io/FITDEFENSE/)
 ### Project Description
 ["Fit Defense" is a hostilic welless platform providing online self defense classes,fitness routines and health advice.]
 
@@ -27,68 +26,48 @@
 For Software:
 - [html,css]
 - [spring]
-- []
 - [notepad]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+### Implementation for FitDefense Website  
 
-### Implementation
-For Software:
-# Installation
-[commands]
+#### **For Software:**  
+- **Frameworks used**: None (Pure HTML & CSS)  
+- **Libraries used**: None (Custom styling)  
+- **Tools used**: VS Code, Git, Browser (Chrome/Firefox)  
 
-# Run
-[commands]
+#### **Installation**  
+```sh
+git clone https://github.com/your-repo/fitdefense-website.git  
+cd fitdefense-website  
+```
+
+#### **Run**  
+```sh
+open index.html  
+```  
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](c:\Users\Nandana Rakesh\Pictures\Screenshots\ss1.png)
+![ss1](https://github.com/user-attachments/assets/9c901ada-d4f3-421d-9515-744e4043745d)
 *Add caption explaining what this shows*
 
-![Screenshot2](c:\Users\Nandana Rakesh\Pictures\Screenshots\ss2.png)
-*Add caption explaining what this shows*
+![ss2](https://github.com/user-attachments/assets/51114236-bfc6-4670-9a8a-24e133cfd594)
 
-![Screenshot3]("C:\Users\Nandana Rakesh\Pictures\Screenshots\ss3.png")
+![ss3](https://github.com/user-attachments/assets/deeab85a-1737-4252-9cea-1a796126bb06)
 *Add caption explaining what this shows*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
-
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-["C:\Users\Nandana Rakesh\Downloads\Screenity video - Feb 2, 2025.webm"]
+(https://drive.google.com/file/d/1w5xoIsqweXrvJ2uyre0VHJy2gw0XgiK5/view?usp=sharing)
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - [sivaganga]: [Design]
