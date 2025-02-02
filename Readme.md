@@ -11,13 +11,13 @@
 - Member 3: [Nandana Rakesh] - [Amal jyothi college of engineering]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+[C:\Users\Nandana Rakesh\Desktop\hackthon]
 
 ### Project Description
-[2-3 lines about what your project does]
+["Fit Defense" is a hostilic welless platform providing online self defense classes,fitness routines and health advice.]
 
 ### The Problem statement
-["Fit Defense" is a hostilic welless platform providing online self defense classes,fitness routines and health advice.]
+[why we are using different apps for fittness and health care?]
 
 ### The Solution
 [our website eliminates the need for multiple apps by providing all fitness-related resources in one place making it more convenient and time-saving ]
@@ -84,16 +84,16 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+["C:\Users\Nandana Rakesh\Downloads\Screenity video - Feb 2, 2025.webm"]
 *Explain what the video demonstrates*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [sivaganga]: [Design]
+- [Nandana]: [Code]
+- [Reetha]: [Contents]
 
 ---
 Made with ❤️ at TinkerHub
