@@ -2,13 +2,13 @@
 
 
 ## Basic Details
-### Team Name: algoithm
+### Team Name: Algorithm Avengers 
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Sivaganga Anurajan] - [Amal jyothi college of engineering]
+- Member 2: [Reetha Saji] - [Amal jyothi college of engineering]
+- Member 3: [Nandana Rakesh] - [Amal jyothi college of engineering]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
@@ -17,18 +17,18 @@
 [2-3 lines about what your project does]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+["Fit Defense" is a hostilic welless platform providing online self defense classes,fitness routines and health advice.]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[our website eliminates the need for multiple apps by providing all fitness-related resources in one place making it more convenient and time-saving ]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [html,css]
+- [spring]
+- []
+- [notepad]
 
 For Hardware:
 - [List main components]
@@ -47,13 +47,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](c:\Users\Nandana Rakesh\Pictures\Screenshots\ss1.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](c:\Users\Nandana Rakesh\Pictures\Screenshots\ss2.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3]("C:\Users\Nandana Rakesh\Pictures\Screenshots\ss3.png")
 *Add caption explaining what this shows*
 
 # Diagrams
