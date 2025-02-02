@@ -35,6 +35,11 @@ For Software:
 - **Libraries used**: None (Custom styling)  
 - **Tools used**: VS Code, Git, Browser (Chrome/Firefox)  
 
+
+
+### Project Documentation
+For Software:
+
 #### **Installation**  
 ```sh
 git clone https://github.com/your-repo/fitdefense-website.git  
@@ -45,9 +50,6 @@ cd fitdefense-website
 ```sh
 open index.html  
 ```  
-
-### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 ![ss1](https://github.com/user-attachments/assets/9c901ada-d4f3-421d-9515-744e4043745d)
